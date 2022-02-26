@@ -1,13 +1,191 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #222;
+  background-image: url("./img/background.jpg");
+  color: #ddd;
+  text-align: center;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  width: 960px;
+  margin: 0 auto;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+.header {
+  margin-top: -50px;
+}
+
+.logo {
+  width: 30%;
+  height: 30%;
+}
+
+h1 {
+  color: #fcdf2b;
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+  margin-top: 2px;
+  color: #ffff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.buttonFisrst {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 3px;
+  font-weight: 400px;
+  font-size: 20px;
+  padding: 5px;
+  border: 10px solid #0c0c0c;
+  border-radius: 15px;
+  background-color: #0c0c0c;
+  color: white;
+  box-shadow: 3px 3px 3px rgba(107, 107, 107, 0.466);
+  margin-top: 50px;
+
+}
+.buttonFisrst:hover {
+  background-color: black;
+  border: 10px solid black;
+}
+content {
+  text-align: left;
+}
+
+.cards {
+  padding: 8px 16px;
+  background: #1b1b1b;
+  margin: 16px 0;
+  border-radius: 20px;
+}
+
+.cards:hover {
+  opacity: 0.8;
+}
+
+.cards2 {
+  padding: 8px 16px;
+  background: #1b1b1b;
+  margin: 16px 0;
+  border-radius: 20px;
+}
+
+.imageShip {
+  border-radius: 15px;
+  width: 500px;
+}
+
+.columnDetail {
+  color: #999;
+  margin-left: 100px;
+  padding: 5px;
+}
+
+.cards p {
+  margin: 6px 0;
+  color: #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards h3 {
+  margin: 10px 0;
+  color: #fcdf2b;
+}
+
+.links {
+  text-decoration: none;
+}
+
+button:disabled {
+  opacity: 0.2;
+  cursor: not-allowed;
+}
+
+.form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  background-color: #1b1b1b;
+  color: white;
+}
+
+.modalbody {
+  background-color: #1b1b1b;
+}
+
+.buttonAccept {
+  background-color: #fcdf2b;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(168, 168, 168);
+  font-weight: 600px;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.enlace {
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(168, 168, 168);
+  font-weight: 600px;
+  letter-spacing: 2px;
+}
+
+.enlace:hover {
+  color: white;
+}
+
+.buttonLog {
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(168, 168, 168);
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+.buttonLog:hover {
+  color: white;
+}
+
+.principal {
+  background-image: url("./img/ejercito.jpg");
+  background-size: 1500px;
+  background-repeat: no-repeat;
+  height: 65vh;
+  background-position: center 70%;
+  margin-top: -15px;
+}
+
+.textTitle {
+  padding-top: 150px;
+  background-color: #a89a9a0e;
+  height: 65vh;
+}
+
+.firstTitle {
+  background-image: url("./img/background.jpg");
+  background-size: 1000px;
+  
+}
+
+.buttonLog {
+  background: none;
+  border: none;
+}
+
+
+
